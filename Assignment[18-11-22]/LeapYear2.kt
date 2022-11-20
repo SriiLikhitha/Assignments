@@ -1,5 +1,5 @@
 import java.util.Scanner
-fun main(args: Array<String>) {
+fun main() {
 
     var sc=Scanner(System.`in`)
     println("Enter a year:")
