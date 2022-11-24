@@ -61,7 +61,10 @@ fun main(){
         }
 
         println("process completed enter another choice to continue")
-        println("1)Create\n2)Display All\n3)Update\n4)Delete\n5)Exit")
+        println("=======================================================================")
+        println("1)Create       2)Display       3)Update        4)Delete        5)Exit")
+        println("=======================================================================")
+        
 
         var choice1=sc.nextInt()
         choice=choice1
