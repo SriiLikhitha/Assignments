@@ -6,8 +6,9 @@ fun main(){
 
     var productService=ProductService()
     var sc  = Scanner(System.`in`)
-    println("==================CRUD OPERATIONS================")
-    println("1)Create\n2)Display All\n3)Update\n4)Delete\n5)Exit")
+    println("============================CRUD OPERATIONS============================")
+    println("1)Create       2)Display       3)Update        4)Delete        5)Exit")
+    println("=======================================================================")
     println("Enter ur choice")
     var choice=sc.nextInt()
     while(choice<6){
